@@ -60,6 +60,10 @@ The interactive Streamlit dashboard provides high-fidelity visualization of the 
 ![Robustness Gap](assets/robustness_gap.png)
 *Figure 3: Comparative performance of Baseline AR vs. Proposed XGBoost during extreme weather distribution shifts.*
 
+### 4. Raw Signal Overview (Temporal)
+![Time Series Overview](assets/time_series_baseline.png)
+*Figure 4: Aggregated daily social need counts and mean temperatures across the 3-year study horizon (1.15M+ records).*
+
 ---
 
 ## Research Insights
