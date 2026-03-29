@@ -44,6 +44,24 @@ graph TD
 
 ---
 
+## Research Dashboard & Visualizations
+
+The interactive Streamlit dashboard provides high-fidelity visualization of the causal pipeline, from raw ingestion to robustness testing.
+
+### 1. Unified Research Dashboard
+![Full Dashboard View](assets/full_dashboard.png)
+*Figure 1: Comprehensive overview of metrics, causal signals, and model performance across 1.15M+ records.*
+
+### 2. Causal Feature Selection (Granger-Selected)
+![Causal Analysis](assets/causal_analysis.png)
+*Figure 2: Statistical significance heatmap showing -log10(p-value) across multiple weather lags and social need types.*
+
+### 3. Robustness Gap Analysis
+![Robustness Gap](assets/robustness_gap.png)
+*Figure 3: Comparative performance of Baseline AR vs. Proposed XGBoost during extreme weather distribution shifts.*
+
+---
+
 ## Research Insights
 
 - **Causal Signal**: Statutory temperature (**max_temp**) Granger-causes social need fluctuations at lags **3–6 days** and **10 days** (p < 0.05), suggesting a 1-week response window for heat-related health and housing needs.
